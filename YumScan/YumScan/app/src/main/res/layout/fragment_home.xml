@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avez-vous des allergies particulières ?"
+        android:layout_marginTop="3pt"
+        />
+
+    <Spinner
+        android:id="@+id/allergies_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/allergies"
+        android:layout_marginTop="5pt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avez-vous un régime particulier ?"
+        android:layout_marginTop="10pt"
+        />
+
+    <Spinner
+        android:id="@+id/regime_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/regime"
+        android:layout_marginTop="5pt"/>
+
+    <ImageView
+        android:id="@+id/imageFruits"
+        android:layout_width="280dp"
+        android:layout_height="210dp"
+        android:layout_marginLeft="25pt"
+        android:layout_marginTop="30pt"
+        android:scaleX="1.25"
+        android:scaleY="1.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regime_spinner"
+        app:srcCompat="@drawable/image_fruits" />
+
+</LinearLayout>

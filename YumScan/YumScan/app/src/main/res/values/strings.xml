@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">YumScan</string>
+    <string name="title_home">Préférences</string>
+    <string name="title_scanner">Scanner</string>
+    <string name="title_favorites">Favoris</string>
+    <string name="favorite">Favoris</string>
+    <string name="toast_favorite">Ajouté aux favoris</string>
+    <string name="toast_unfavorite">Retiré des favoris</string>
+    <string name="title_history">Historique</string>
+
+    <string name="aucun">aucun</string>
+    <string name="aucune">aucune</string>
+    <string name="anhyride">Anhyride sulfureux et sulfites</string>
+    <string name="arachides">Arachides</string>
+    <string name="céleri">Céleri</string>
+    <string name="crustacés">Crustacés</string>
+    <string name="fruitsCoque">Fruits à coque</string>
+    <string name="gluten">Gluten</string>
+    <string name="grainesSésame">Graines de sésame</string>
+    <string name="lait">Lait</string>
+    <string name="mollusques">Mollusques</string>
+    <string name="moutarde">Moutarde</string>
+    <string name="oeufs">Oeufs</string>
+    <string name="poisson">Poisson</string>
+    <string name="soja">Soja</string>
+
+    <string name="vegetarien">Végétarien</string>
+    <string name="vegan">Vegan</string>
+
+    <string-array name="allergies">
+        <item>@string/aucune</item>
+        <item>@string/anhyride</item>
+        <item>@string/arachides</item>
+        <item>@string/céleri</item>
+        <item>@string/crustacés</item>
+        <item>@string/fruitsCoque</item>
+        <item>@string/gluten</item>
+        <item>@string/grainesSésame</item>
+        <item>@string/lait</item>
+        <item>@string/mollusques</item>
+        <item>@string/moutarde</item>
+        <item>@string/oeufs</item>
+        <item>@string/poisson</item>
+        <item>@string/soja</item>
+    </string-array>
+
+    <string-array name="regime">
+        <item>@string/aucun</item>
+        <item>@string/vegetarien</item>
+        <item>@string/vegan</item>
+    </string-array>
+
+</resources>
